@@ -349,7 +349,7 @@ func (s *Signer) Sign(req signer.SignRequest) (cert []byte, err error) {
 		}
 
 		derCert, _ := pem.Decode(cert)
-		prechain := []ct.ASN1Cert{derCert.Bytes, s.ca.Raw}
+		prechain := []ct.ASN1Cert{ct.ASN1Cert{derCert.Bytes}, ct.ASN1Cert{s.ca.Raw}}
 		var sctList []ct.SignedCertificateTimestamp
 
 		for _, server := range profile.CTLogServers {

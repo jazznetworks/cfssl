@@ -20,6 +20,7 @@ import (
 	"math/big"
 
 	"github.com/google/certificate-transparency/go"
+	cttls "github.com/google/certificate-transparency/go/tls"
 	"golang.org/x/crypto/ocsp"
 
 	"strings"
@@ -529,7 +530,7 @@ func CreateTLSConfig(remoteCAs *x509.CertPool, cert *tls.Certificate) *tls.Confi
 func SerializeSCTList(sctList []ct.SignedCertificateTimestamp) ([]byte, error) {
 	var buf bytes.Buffer
 	for _, sct := range sctList {
-		sct, err := ct.SerializeSCT(sct)
+		sct, err := cttls.Marshal(sct)
 		if err != nil {
 			return nil, err
 		}
@@ -575,12 +576,14 @@ func DeserializeSCTList(serializedSCTList []byte) (*[]ct.SignedCertificateTimest
 		}
 
 		serializedSCT := sctReader.Next(int(sctLen))
-		sct, err := ct.DeserializeSCT(bytes.NewReader(serializedSCT))
+		var sct ct.SignedCertificateTimestamp
+
+		_, err = cttls.Unmarshal(serializedSCT, &sct)
 		if err != nil {
 			return sctList, cferr.Wrap(cferr.CTError, cferr.Unknown, err)
 		}
 
-		temp := append(*sctList, *sct)
+		temp := append(*sctList, sct)
 		sctList = &temp
 	}
 
