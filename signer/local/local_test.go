@@ -17,12 +17,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
+	"github.com/jazznetworks/cfssl/config"
+	"github.com/jazznetworks/cfssl/csr"
+	cferr "github.com/jazznetworks/cfssl/errors"
+	"github.com/jazznetworks/cfssl/helpers"
+	"github.com/jazznetworks/cfssl/log"
+	"github.com/jazznetworks/cfssl/signer"
 )
 
 const (

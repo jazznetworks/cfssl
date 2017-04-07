@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"net/http"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/auth"
-	"github.com/cloudflare/cfssl/bundler"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/signer"
+	"github.com/jazznetworks/cfssl/api"
+	"github.com/jazznetworks/cfssl/auth"
+	"github.com/jazznetworks/cfssl/bundler"
+	"github.com/jazznetworks/cfssl/errors"
+	"github.com/jazznetworks/cfssl/log"
+	"github.com/jazznetworks/cfssl/signer"
 )
 
 // NoBundlerMessage is used to alert the user that the server does not have a bundler initialized.

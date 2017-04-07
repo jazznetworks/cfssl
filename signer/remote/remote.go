@@ -6,13 +6,13 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/cloudflare/cfssl/api/client"
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/config"
-	cferr "github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/info"
-	"github.com/cloudflare/cfssl/signer"
+	"github.com/jazznetworks/cfssl/api/client"
+	"github.com/jazznetworks/cfssl/certdb"
+	"github.com/jazznetworks/cfssl/config"
+	cferr "github.com/jazznetworks/cfssl/errors"
+	"github.com/jazznetworks/cfssl/helpers"
+	"github.com/jazznetworks/cfssl/info"
+	"github.com/jazznetworks/cfssl/signer"
 )
 
 // A Signer represents a CFSSL instance running as signing server.

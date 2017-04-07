@@ -8,7 +8,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/cloudflare/cfssl/helpers"
+	"github.com/jazznetworks/cfssl/helpers"
 )
 
 // Sentinel for failures in sayHello. Should always be caught.

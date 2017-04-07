@@ -16,10 +16,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/certdb/sql"
-	"github.com/cloudflare/cfssl/certdb/testdb"
-	"github.com/cloudflare/cfssl/ocsp"
+	"github.com/jazznetworks/cfssl/certdb"
+	"github.com/jazznetworks/cfssl/certdb/sql"
+	"github.com/jazznetworks/cfssl/certdb/testdb"
+	"github.com/jazznetworks/cfssl/ocsp"
 
 	"encoding/base64"
 

@@ -18,8 +18,8 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/log"
+	"github.com/jazznetworks/cfssl/certdb"
+	"github.com/jazznetworks/cfssl/log"
 	"github.com/jmhodges/clock"
 	"golang.org/x/crypto/ocsp"
 )

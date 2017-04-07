@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/ubiquity"
+	"github.com/jazznetworks/cfssl/helpers"
+	"github.com/jazznetworks/cfssl/ubiquity"
 )
 
 var metadataFiles = []string{

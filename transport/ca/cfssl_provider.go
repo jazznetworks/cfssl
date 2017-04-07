@@ -9,13 +9,13 @@ import (
 	"net"
 	"path/filepath"
 
-	"github.com/cloudflare/cfssl/api/client"
-	"github.com/cloudflare/cfssl/auth"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/info"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/transport/core"
+	"github.com/jazznetworks/cfssl/api/client"
+	"github.com/jazznetworks/cfssl/auth"
+	"github.com/jazznetworks/cfssl/config"
+	"github.com/jazznetworks/cfssl/helpers"
+	"github.com/jazznetworks/cfssl/info"
+	"github.com/jazznetworks/cfssl/signer"
+	"github.com/jazznetworks/cfssl/transport/core"
 )
 
 type authError struct {

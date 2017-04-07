@@ -9,12 +9,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/initca"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/local"
+	"github.com/jazznetworks/cfssl/config"
+	"github.com/jazznetworks/cfssl/csr"
+	"github.com/jazznetworks/cfssl/helpers"
+	"github.com/jazznetworks/cfssl/initca"
+	"github.com/jazznetworks/cfssl/signer"
+	"github.com/jazznetworks/cfssl/signer/local"
 	"github.com/kisom/goutils/assert"
 )
 

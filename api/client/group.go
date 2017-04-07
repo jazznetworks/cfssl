@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudflare/cfssl/auth"
-	"github.com/cloudflare/cfssl/info"
+	"github.com/jazznetworks/cfssl/auth"
+	"github.com/jazznetworks/cfssl/info"
 )
 
 // Strategy is the means by which the server to use as a remote should

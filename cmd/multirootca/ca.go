@@ -8,13 +8,13 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/cloudflare/cfssl/api/info"
-	"github.com/cloudflare/cfssl/certdb/sql"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/multiroot/config"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/local"
-	"github.com/cloudflare/cfssl/whitelist"
+	"github.com/jazznetworks/cfssl/api/info"
+	"github.com/jazznetworks/cfssl/certdb/sql"
+	"github.com/jazznetworks/cfssl/log"
+	"github.com/jazznetworks/cfssl/multiroot/config"
+	"github.com/jazznetworks/cfssl/signer"
+	"github.com/jazznetworks/cfssl/signer/local"
+	"github.com/jazznetworks/cfssl/whitelist"
 
 	_ "github.com/go-sql-driver/mysql" // import to support MySQL
 	_ "github.com/lib/pq"              // import to support Postgres

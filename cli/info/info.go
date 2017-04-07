@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/cloudflare/cfssl/api/client"
-	"github.com/cloudflare/cfssl/cli"
-	"github.com/cloudflare/cfssl/cli/sign"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/info"
+	"github.com/jazznetworks/cfssl/api/client"
+	"github.com/jazznetworks/cfssl/cli"
+	"github.com/jazznetworks/cfssl/cli/sign"
+	"github.com/jazznetworks/cfssl/errors"
+	"github.com/jazznetworks/cfssl/helpers"
+	"github.com/jazznetworks/cfssl/info"
 
 	goerr "errors"
 )

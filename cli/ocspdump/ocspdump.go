@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cloudflare/cfssl/certdb/dbconf"
-	"github.com/cloudflare/cfssl/certdb/sql"
-	"github.com/cloudflare/cfssl/cli"
+	"github.com/jazznetworks/cfssl/certdb/dbconf"
+	"github.com/jazznetworks/cfssl/certdb/sql"
+	"github.com/jazznetworks/cfssl/cli"
 )
 
 // Usage text of 'cfssl ocspdump'

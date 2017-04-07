@@ -7,14 +7,14 @@ import (
 	"time"
 
 	"github.com/cloudflare/backoff"
-	"github.com/cloudflare/cfssl/csr"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/revoke"
-	"github.com/cloudflare/cfssl/transport/ca"
-	"github.com/cloudflare/cfssl/transport/core"
-	"github.com/cloudflare/cfssl/transport/kp"
-	"github.com/cloudflare/cfssl/transport/roots"
+	"github.com/jazznetworks/cfssl/csr"
+	"github.com/jazznetworks/cfssl/errors"
+	"github.com/jazznetworks/cfssl/log"
+	"github.com/jazznetworks/cfssl/revoke"
+	"github.com/jazznetworks/cfssl/transport/ca"
+	"github.com/jazznetworks/cfssl/transport/core"
+	"github.com/jazznetworks/cfssl/transport/kp"
+	"github.com/jazznetworks/cfssl/transport/roots"
 )
 
 func envOrDefault(key, def string) string {

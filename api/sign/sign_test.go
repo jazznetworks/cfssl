@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/auth"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/signer"
+	"github.com/jazznetworks/cfssl/api"
+	"github.com/jazznetworks/cfssl/auth"
+	"github.com/jazznetworks/cfssl/config"
+	"github.com/jazznetworks/cfssl/signer"
 )
 
 const (

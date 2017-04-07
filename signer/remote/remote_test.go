@@ -12,14 +12,14 @@ import (
 	"testing"
 	"time"
 
-	apiinfo "github.com/cloudflare/cfssl/api/info"
-	apisign "github.com/cloudflare/cfssl/api/signhandler"
-	"github.com/cloudflare/cfssl/config"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/helpers/testsuite"
-	"github.com/cloudflare/cfssl/info"
-	"github.com/cloudflare/cfssl/signer"
-	"github.com/cloudflare/cfssl/signer/local"
+	apiinfo "github.com/jazznetworks/cfssl/api/info"
+	apisign "github.com/jazznetworks/cfssl/api/signhandler"
+	"github.com/jazznetworks/cfssl/config"
+	"github.com/jazznetworks/cfssl/helpers"
+	"github.com/jazznetworks/cfssl/helpers/testsuite"
+	"github.com/jazznetworks/cfssl/info"
+	"github.com/jazznetworks/cfssl/signer"
+	"github.com/jazznetworks/cfssl/signer/local"
 )
 
 const (

@@ -3,7 +3,7 @@ package version
 import (
 	"testing"
 
-	"github.com/cloudflare/cfssl/cli"
+	"github.com/jazznetworks/cfssl/cli"
 )
 
 func TestVersionString(t *testing.T) {

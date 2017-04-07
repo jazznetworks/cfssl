@@ -32,7 +32,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/cloudflare/cfssl/config"
+	"github.com/jazznetworks/cfssl/config"
 )
 
 // Command holds the implementation details of a cfssl command.

@@ -9,11 +9,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/certdb"
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
-	"github.com/cloudflare/cfssl/ocsp"
+	"github.com/jazznetworks/cfssl/api"
+	"github.com/jazznetworks/cfssl/certdb"
+	"github.com/jazznetworks/cfssl/errors"
+	"github.com/jazznetworks/cfssl/helpers"
+	"github.com/jazznetworks/cfssl/ocsp"
 
 	"encoding/base64"
 
@@ -21,7 +21,7 @@ import (
 )
 
 // This is patterned on
-// https://github.com/cloudflare/cfssl/blob/master/api/revoke/revoke.go. This
+// https://github.com/jazznetworks/cfssl/blob/master/api/revoke/revoke.go. This
 // file defines an HTTP endpoint handler that accepts certificates and
 // inserts them into a certdb, optionally also creating an OCSP
 // response for them. If so, it will also return the OCSP response as

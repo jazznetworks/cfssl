@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudflare/cfssl/api"
-	"github.com/cloudflare/cfssl/ocsp"
+	"github.com/jazznetworks/cfssl/api"
+	"github.com/jazznetworks/cfssl/ocsp"
 	goocsp "golang.org/x/crypto/ocsp"
 
-	"github.com/cloudflare/cfssl/helpers"
+	"github.com/jazznetworks/cfssl/helpers"
 )
 
 const (

@@ -11,8 +11,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/cloudflare/cfssl/errors"
-	"github.com/cloudflare/cfssl/helpers"
+	"github.com/jazznetworks/cfssl/errors"
+	"github.com/jazznetworks/cfssl/helpers"
 )
 
 //TestNew validate the CertificateRequest created to return with a BasicKeyRequest

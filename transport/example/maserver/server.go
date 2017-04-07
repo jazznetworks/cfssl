@@ -6,10 +6,10 @@ import (
 	"io/ioutil"
 	"net"
 
-	"github.com/cloudflare/cfssl/log"
-	"github.com/cloudflare/cfssl/transport"
-	"github.com/cloudflare/cfssl/transport/core"
-	"github.com/cloudflare/cfssl/transport/example/exlib"
+	"github.com/jazznetworks/cfssl/log"
+	"github.com/jazznetworks/cfssl/transport"
+	"github.com/jazznetworks/cfssl/transport/core"
+	"github.com/jazznetworks/cfssl/transport/example/exlib"
 )
 
 // maclient is a mutual-authentication server, meant to demonstrate
